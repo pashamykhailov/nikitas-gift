@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.static('static'));
 
 app.use('/*', (req, res) => {
-  res.sendFile(path.join(__dirname, '/static/index.html'));
+  res.sendFile(path.join(__dirname, 'public'));
 });
 
 app.listen(port, () => {
