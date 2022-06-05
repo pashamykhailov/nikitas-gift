@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.use(express.static('static'));
 
-app.use('/', (req, res) => {
+app.use('/*', (req, res) => {
   res.sendFile(path.join(__dirname, '/static/index.html'));
 });
 
