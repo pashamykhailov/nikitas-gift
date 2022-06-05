@@ -1,0 +1,24 @@
+{
+  "name": "niks-gift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pashamykhailov/nikitas-gift.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pashamykhailov/nikitas-gift/issues"
+  },
+  "homepage": "https://github.com/pashamykhailov/nikitas-gift#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "save": "^2.5.0"
+  }
+}
